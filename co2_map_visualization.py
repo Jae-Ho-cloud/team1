@@ -148,7 +148,3 @@ folium.LayerControl().add_to(m)
 
 # 지도를 HTML 파일로 저장
 m.save('korea_co2_neutrality_map_with_circles_by_absorption.html')
-
-
-
-
