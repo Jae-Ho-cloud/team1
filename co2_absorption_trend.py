@@ -31,7 +31,7 @@ coefficients = np.polyfit(data2['년도'], data2['총흡수량'], 1)
 trendline = np.polyval(coefficients, data2['년도'])
 
 # 추세선 추가
-plt.plot(data2['년도'], trendline, color='red', linewidth=2, label='추세선')
+plt.plot(data2['년도'], trendline, color='red', linewidth=2)
 plt.legend()
 plt.title('산림/초지/기타: 총흡수량 트렌드 (2015년~ 2021년)')
 plt.xlabel('년도')

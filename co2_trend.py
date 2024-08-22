@@ -17,11 +17,11 @@ data2 = data[data['년도']>=2015]
 plt.figure(figsize=(15, 7))  # 가로 10인치, 세로 6인치로 설정
 
 # 선그래프
-plt.plot(data['년도'], data['순배출량'], color='orange', linewidth=4, label='순배출량', alpha=0.8)
+plt.plot(data['년도'], data['순배출량'], color='red', linewidth=4, label='순배출량', alpha=0.8)
 plt.plot(data['년도'], data['총배출량'], color='grey', linewidth=2, label='총배출량', linestyle='--', alpha=0.6)
 plt.plot(data['년도'], data['총흡수량'], color='green', linewidth=2, label='총흡수량', linestyle='--', alpha=0.6)
 
-plt.legend()
+#plt.legend()
 plt.xlabel('년도')
 plt.ylabel('k ton-CO2eq')
 # 모든 x축 tick 표시
